@@ -545,7 +545,7 @@ export default function PragmataUnitPrinterCalculator() {
 							</div>
 							<h1 className="text-3xl font-black uppercase tracking-[0.12em] text-slate-50 sm:text-5xl">Unit Printer</h1>
 							<p className="mt-2 max-w-3xl text-sm text-slate-300 sm:text-base">Click the slanted level bars to set the weapon level. Empty/black means unbought, white goes up to the current level, red marks the next upgrade, and orange means upgrades are complete. This will calculate the total cost to full upgrade your weapons.</p>
-							<p className="mt-2 max-w-3xl text-sm text-slate-300 sm:text-base">Numbers sourced online, but not confirmed independently (yet). Values may be inaccurate.<br>More tabs and details to come.</p>
+							<p className="mt-2 max-w-3xl text-sm text-slate-300 sm:text-base">NOTE: Numbers sourced online, but not confirmed independently (yet). Values may be inaccurate.More tabs and details to come.</p>
 						</div>
 						<div className="flex flex-wrap gap-2">
 							<button type="button" onClick={maxMain} className="rounded border border-cyan-300/30 bg-cyan-400/10 px-3 py-2 text-sm font-bold uppercase tracking-wide text-cyan-50 hover:bg-cyan-400/20">
