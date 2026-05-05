@@ -29,10 +29,7 @@ const ORANGE_COMPLETE = "bg-gradient-to-r from-yellow-300 to-orange-500";
 const OWNED_BAR = "bg-slate-100";
 const EMPTY_BAR = "bg-slate-400/40";
 const NEXT_BAR = "bg-red-600";
-const assetBase = import.meta.url.includes("/dist/assets/")
-	? `${import.meta.env.BASE_URL}dist/`
-	: import.meta.env.BASE_URL;
-const publicAsset = (path) => `${assetBase}${path.replace(/^\/+/, "")}`;
+const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
 const weaponImage = (name) => publicAsset(`images/weapon/${name}.png`);
 
 const weapons = [

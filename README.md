@@ -62,9 +62,7 @@ npm run preview
 
 The project deploys to GitHub Pages with the workflow in `.github/workflows/deploy.yml`.
 
-On every push to `main`, GitHub Actions installs dependencies, runs `npm run build`, uploads the generated `dist` directory, and deploys that build artifact to Pages.
-
-The repository also keeps the generated `dist` directory committed so the site still works if GitHub Pages is configured to deploy from the `main` branch root.
+On every push to `main`, GitHub Actions installs dependencies, runs `npm run build`, uploads the generated `dist` directory, and deploys that build artifact to Pages. The generated `dist` directory is ignored locally and should not be committed.
 
 The Vite production base path is configured for the repository URL:
 

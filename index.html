@@ -3,11 +3,11 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" href="dist/favicon.ico" sizes="any" data-public-path="favicon.ico" />
-		<link rel="icon" type="image/png" sizes="16x16" href="dist/favicon-16x16.png" data-public-path="favicon-16x16.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="dist/favicon-32x32.png" data-public-path="favicon-32x32.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="dist/apple-touch-icon.png" data-public-path="apple-touch-icon.png" />
-		<link rel="manifest" href="dist/site.webmanifest" data-public-path="site.webmanifest" />
+		<link rel="icon" href="%BASE_URL%favicon.ico" sizes="any" />
+		<link rel="icon" type="image/png" sizes="16x16" href="%BASE_URL%favicon-16x16.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="%BASE_URL%favicon-32x32.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="%BASE_URL%apple-touch-icon.png" />
+		<link rel="manifest" href="%BASE_URL%site.webmanifest" />
 		<meta name="theme-color" content="#071017" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>PRAGMATA Unit Printer</title>
@@ -15,44 +15,7 @@
 
 	<body>
 		<div id="root"></div>
-		<script>
-			async function loadProductionApp() {
-				const assetRoots = ["dist/assets", "assets"];
-
-				for (const assetRoot of assetRoots) {
-					try {
-						const response = await fetch(`${assetRoot}/main.js`, { method: "HEAD" });
-						if (!response.ok) continue;
-
-						const publicRoot = assetRoot === "dist/assets" ? "dist/" : "";
-						document.querySelectorAll("[data-public-path]").forEach((element) => {
-							element.href = `${publicRoot}${element.dataset.publicPath}`;
-						});
-
-						const stylesheet = document.createElement("link");
-						stylesheet.rel = "stylesheet";
-						stylesheet.href = `${assetRoot}/main.css`;
-						document.head.append(stylesheet);
-
-						await import(`./${assetRoot}/main.js`);
-						return;
-					} catch {
-						// Try the next asset root.
-					}
-				}
-
-				document.getElementById("root").textContent = "Unable to load application assets.";
-			}
-
-			if (location.hostname.endsWith("github.io")) {
-				loadProductionApp();
-			} else {
-				const script = document.createElement("script");
-				script.type = "module";
-				script.src = "/src/main.jsx";
-				document.body.append(script);
-			}
-		</script>
+		<script type="module" src="/src/main.jsx"></script>
 	</body>
 
 </html>
