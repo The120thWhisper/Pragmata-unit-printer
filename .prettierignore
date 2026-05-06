@@ -1,0 +1,8 @@
+dist
+node_modules
+public
+src/data
+scripts
+package-lock.json
+.github
+*.md
