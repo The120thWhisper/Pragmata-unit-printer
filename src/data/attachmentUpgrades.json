@@ -9,8 +9,8 @@
   },
   "items": [
     {
-      "id": "hacking-gauge",
-      "name": "Hacking Gauge",
+      "id": "additional-hacking-gauge",
+      "name": "Additional Hacking Gauge",
       "category": "Attachment",
       "type": "Attachment",
       "phase": "main",
@@ -23,7 +23,7 @@
         7,
         8
       ],
-      "imagePath": "images/attachment/",
+      "imagePath": "images/attachment/Hacking Gauge.webp",
       "levels": [
         {
           "level": 1,
@@ -51,11 +51,11 @@
           "effect": "Increased Gain"
         }
       ],
-      "fullName": "Hacking Gauge"
+      "fullName": "Additional Hacking Gauge"
     },
     {
-      "id": "m",
-      "name": "Mod Slot",
+      "id": "additional-mod-slot",
+      "name": "Additional Mod Slot",
       "category": "Attachment",
       "type": "Attachment",
       "phase": "main",
@@ -68,7 +68,7 @@
         7,
         8
       ],
-      "imagePath": "images/attachment/",
+      "imagePath": "images/attachment/Mod Slot.webp",
       "levels": [
         {
           "level": 1,
@@ -108,11 +108,11 @@
           "effect": "6 Mod Slot"
         }
       ],
-      "fullName": "Mod Slot"
+      "fullName": "Additional Mod Slot"
     },
     {
-      "id": "node-slot",
-      "name": "Node Slot",
+      "id": "additional-node-slot",
+      "name": "Additional Node Slot",
       "category": "Attachment",
       "type": "Attachment",
       "phase": "main",
@@ -125,7 +125,7 @@
         7,
         8
       ],
-      "imagePath": "images/attachment/",
+      "imagePath": "images/attachment/Node Slot.webp",
       "levels": [
         {
           "level": 1,
@@ -147,7 +147,7 @@
           "effect": "3 Hacking Node Slots"
         }
       ],
-      "fullName": "Node Slot"
+      "fullName": "Additional Node Slot"
     },
     {
       "id": "overdrive-protocol",
@@ -164,7 +164,7 @@
         7,
         8
       ],
-      "imagePath": "images/attachment/",
+      "imagePath": "images/attachment/Overdrive Protocol.webp",
       "levels": [
         {
           "level": 1,
@@ -214,7 +214,7 @@
         7,
         8
       ],
-      "imagePath": "images/attachment/",
+      "imagePath": "images/attachment/Repair Up.webp",
       "levels": [
         {
           "level": 1,
@@ -282,7 +282,7 @@
         7,
         8
       ],
-      "imagePath": "images/attachment/",
+      "imagePath": "images/attachment/Thrusters.webp",
       "levels": [
         {
           "level": 1,
