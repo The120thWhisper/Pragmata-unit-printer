@@ -144,3 +144,5 @@ vite.config.ts.timestamp-*
 
 .DS_Store
 **/.DS_Store
+scripts/config-server.mjs
+scripts/config-panel.html

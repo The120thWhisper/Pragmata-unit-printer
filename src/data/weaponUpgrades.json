@@ -1,0 +1,773 @@
+{
+  "title": "PRAGMATA Unit Printer Weapon Upgrades",
+  "sourcedAt": "2026-05-05",
+  "coverage": {
+    "status": "partial",
+    "notes": [
+      "Weapon costs were sourced online and have not been independently confirmed in-game.",
+      "shelterLevels maps Shelter License levels 0 through 5 to the maximum visible upgrade level for each item."
+    ]
+  },
+  "items": [
+    {
+      "id": "shockwave-gun",
+      "name": "Shockwave Gun",
+      "category": "Weapon",
+      "type": "Attack",
+      "phase": "main",
+      "unlockShelterLevel": 0,
+      "shelterLevels": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "imagePath": "images/weapon/Shockwave Gun.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 100,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 350,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1300,
+          "lunum": 1
+        },
+        {
+          "level": 5,
+          "lim": 1600,
+          "lunum": 1
+        },
+        {
+          "level": 6,
+          "lim": 2000,
+          "lunum": 1
+        },
+        {
+          "level": 7,
+          "lim": 3000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 4000,
+          "lunum": 2
+        }
+      ]
+    },
+    {
+      "id": "charge-piercer",
+      "name": "Charge Piercer",
+      "category": "Weapon",
+      "type": "Attack",
+      "phase": "main",
+      "unlockShelterLevel": 1,
+      "shelterLevels": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "imagePath": "images/weapon/Charge Piercer.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 100,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 500,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 1000,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1300,
+          "lunum": 1
+        },
+        {
+          "level": 5,
+          "lim": 1600,
+          "lunum": 1
+        },
+        {
+          "level": 6,
+          "lim": 2000,
+          "lunum": 1
+        },
+        {
+          "level": 7,
+          "lim": 3000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 4000,
+          "lunum": 2
+        }
+      ]
+    },
+    {
+      "id": "photon-laser",
+      "name": "Photon Laser",
+      "category": "Weapon",
+      "type": "Attack",
+      "phase": "main",
+      "unlockShelterLevel": 2,
+      "shelterLevels": [
+        0,
+        0,
+        5,
+        6,
+        7,
+        8
+      ],
+      "imagePath": "images/weapon/Photon Laser.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 100,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 400,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1100,
+          "lunum": 1
+        },
+        {
+          "level": 5,
+          "lim": 1500,
+          "lunum": 1
+        },
+        {
+          "level": 6,
+          "lim": 2000,
+          "lunum": 1
+        },
+        {
+          "level": 7,
+          "lim": 3000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 4000,
+          "lunum": 2
+        }
+      ]
+    },
+    {
+      "id": "homing-missiles",
+      "name": "Homing Missiles",
+      "category": "Weapon",
+      "type": "Attack",
+      "phase": "main",
+      "unlockShelterLevel": 3,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        6,
+        7,
+        8
+      ],
+      "imagePath": "images/weapon/Homing Missiles.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 100,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 400,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1100,
+          "lunum": 1
+        },
+        {
+          "level": 5,
+          "lim": 1500,
+          "lunum": 1
+        },
+        {
+          "level": 6,
+          "lim": 2000,
+          "lunum": 1
+        },
+        {
+          "level": 7,
+          "lim": 3000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 4000,
+          "lunum": 2
+        }
+      ]
+    },
+    {
+      "id": "jackhammer",
+      "name": "Jackhammer",
+      "category": "Weapon",
+      "type": "Attack",
+      "phase": "post",
+      "unlockShelterLevel": 5,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "unlockNote": "Complete-story unlock",
+      "imagePath": "images/weapon/Jackhammer.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 500,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 2000,
+          "lunum": 1
+        },
+        {
+          "level": 5,
+          "lim": 3000,
+          "lunum": 1
+        },
+        {
+          "level": 6,
+          "lim": 5000,
+          "lunum": 1
+        },
+        {
+          "level": 7,
+          "lim": 6000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 10000,
+          "lunum": 2
+        }
+      ]
+    },
+    {
+      "id": "lim-cannon",
+      "name": "Lim Cannon",
+      "category": "Weapon",
+      "type": "Attack",
+      "phase": "post",
+      "unlockShelterLevel": 5,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "unlockNote": "Complete Unknown Signal missions unlock",
+      "imagePath": "images/weapon/Lim Cannon.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 500,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 2000,
+          "lunum": 1
+        },
+        {
+          "level": 5,
+          "lim": 3000,
+          "lunum": 1
+        },
+        {
+          "level": 6,
+          "lim": 5000,
+          "lunum": 1
+        },
+        {
+          "level": 7,
+          "lim": 6000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 10000,
+          "lunum": 2
+        }
+      ]
+    },
+    {
+      "id": "stasis-net",
+      "name": "Stasis Net",
+      "category": "Weapon",
+      "type": "Tactical",
+      "phase": "main",
+      "unlockShelterLevel": 0,
+      "shelterLevels": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "imagePath": "images/weapon/Stasis Net.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 100,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 300,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 700,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1000,
+          "lunum": 0
+        },
+        {
+          "level": 5,
+          "lim": 1400,
+          "lunum": 0
+        },
+        {
+          "level": 6,
+          "lim": 1800,
+          "lunum": 0
+        },
+        {
+          "level": 7,
+          "lim": 2500,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 3000,
+          "lunum": 1
+        }
+      ]
+    },
+    {
+      "id": "riot-blaster",
+      "name": "Riot Blaster",
+      "category": "Weapon",
+      "type": "Tactical",
+      "phase": "main",
+      "unlockShelterLevel": 1,
+      "shelterLevels": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "imagePath": "images/weapon/Riot Blaster.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 200,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 400,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 800,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1000,
+          "lunum": 0
+        },
+        {
+          "level": 5,
+          "lim": 1400,
+          "lunum": 0
+        },
+        {
+          "level": 6,
+          "lim": 1800,
+          "lunum": 0
+        },
+        {
+          "level": 7,
+          "lim": 2500,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 3000,
+          "lunum": 1
+        }
+      ]
+    },
+    {
+      "id": "sticky-bombs",
+      "name": "Sticky Bombs",
+      "category": "Weapon",
+      "type": "Tactical",
+      "phase": "main",
+      "unlockShelterLevel": 2,
+      "shelterLevels": [
+        0,
+        0,
+        5,
+        6,
+        7,
+        8
+      ],
+      "imagePath": "images/weapon/Sticky Bombs.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 100,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 300,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 600,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 800,
+          "lunum": 0
+        },
+        {
+          "level": 5,
+          "lim": 1200,
+          "lunum": 0
+        },
+        {
+          "level": 6,
+          "lim": 1500,
+          "lunum": 0
+        },
+        {
+          "level": 7,
+          "lim": 2000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 2500,
+          "lunum": 1
+        }
+      ]
+    },
+    {
+      "id": "code-generator",
+      "name": "Code Generator",
+      "category": "Weapon",
+      "type": "Tactical",
+      "phase": "main",
+      "unlockShelterLevel": 3,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        6,
+        7,
+        8
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Specialist Board",
+      "imagePath": "images/weapon/Code Generator.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "note": "Board unlock"
+        },
+        {
+          "level": 2,
+          "lim": 400,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 800,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1200,
+          "lunum": 0
+        },
+        {
+          "level": 5,
+          "lim": 1500,
+          "lunum": 0
+        },
+        {
+          "level": 6,
+          "lim": 2000,
+          "lunum": 0
+        },
+        {
+          "level": 7,
+          "lim": 3000,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 3500,
+          "lunum": 1
+        }
+      ]
+    },
+    {
+      "id": "hacking-mines",
+      "name": "Hacking Mines",
+      "category": "Weapon",
+      "type": "Tactical",
+      "phase": "main",
+      "unlockShelterLevel": 4,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        0,
+        7,
+        8
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Director Board",
+      "imagePath": "images/weapon/Hacking Mines.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "note": "Board unlock"
+        },
+        {
+          "level": 2,
+          "lim": 400,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 800,
+          "lunum": 0
+        },
+        {
+          "level": 4,
+          "lim": 1000,
+          "lunum": 0
+        },
+        {
+          "level": 5,
+          "lim": 1400,
+          "lunum": 0
+        },
+        {
+          "level": 6,
+          "lim": 1800,
+          "lunum": 0
+        },
+        {
+          "level": 7,
+          "lim": 2500,
+          "lunum": 1
+        },
+        {
+          "level": 8,
+          "lim": 3000,
+          "lunum": 1
+        }
+      ]
+    },
+    {
+      "id": "decoy-generator",
+      "name": "Decoy Gen.",
+      "fullName": "Decoy Generator",
+      "category": "Weapon",
+      "type": "Defensive",
+      "phase": "main",
+      "unlockShelterLevel": 1,
+      "shelterLevels": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "imagePath": "images/weapon/Decoy Generator.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 300,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 1
+        }
+      ]
+    },
+    {
+      "id": "impact-barrier",
+      "name": "Impact Barrier",
+      "category": "Weapon",
+      "type": "Defensive",
+      "phase": "main",
+      "unlockShelterLevel": 3,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "imagePath": "images/weapon/Impact Barrier.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 300,
+          "lunum": 0
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 1
+        }
+      ]
+    },
+    {
+      "id": "drone-hive",
+      "name": "Drone Hive",
+      "category": "Weapon",
+      "type": "Defensive",
+      "phase": "main",
+      "unlockShelterLevel": 2,
+      "shelterLevels": [
+        0,
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Associate Board",
+      "imagePath": "images/weapon/Drone Hive.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "note": "Board unlock"
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 1
+        }
+      ]
+    }
+  ]
+}

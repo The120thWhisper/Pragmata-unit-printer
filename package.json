@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "config": "node scripts/config-server.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
