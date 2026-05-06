@@ -28,18 +28,18 @@ const TYPE_COLORS = {
 		soft: "bg-cyan-400/10",
 	},
 	Node: {
-		bar: "bg-fuchsia-400",
-		border: "border-fuchsia-300/50",
-		glow: "shadow-fuchsia-950/30",
-		text: "text-fuchsia-100",
-		soft: "bg-fuchsia-400/10",
+		bar: "bg-yellow-300",
+		border: "border-yellow-200/50",
+		glow: "shadow-yellow-950/30",
+		text: "text-yellow-100",
+		soft: "bg-yellow-300/10",
 	},
 	Mode: {
-		bar: "bg-amber-300",
-		border: "border-amber-200/50",
-		glow: "shadow-amber-950/30",
-		text: "text-amber-100",
-		soft: "bg-amber-300/10",
+		bar: "bg-blue-400",
+		border: "border-blue-300/50",
+		glow: "shadow-blue-950/30",
+		text: "text-blue-100",
+		soft: "bg-blue-400/10",
 	},
 	Ability: {
 		bar: "bg-violet-300",
@@ -96,6 +96,7 @@ const OWNED_BAR = "bg-slate-100";
 const EMPTY_BAR = "bg-slate-400/40";
 const NEXT_BAR = "bg-red-600";
 const LOCKED_BAR = "bg-slate-950";
+const MIN_SHELTER_LEVEL = 1;
 const MAX_SHELTER_LEVEL = 5;
 const BASE_SHELTER_CAPS = [1, 3, 5, 6, 7, 8];
 const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
@@ -361,11 +362,12 @@ function describeArc(centerX, centerY, radius, startAngle, endAngle) {
 }
 
 function ShelterSelector({ shelterLevel, onChange }) {
-	const nextLevel = (shelterLevel + 1) % (MAX_SHELTER_LEVEL + 1);
+	const currentShelterLevel = Math.max(MIN_SHELTER_LEVEL, Math.min(MAX_SHELTER_LEVEL, shelterLevel));
+	const nextLevel = currentShelterLevel >= MAX_SHELTER_LEVEL ? MIN_SHELTER_LEVEL : currentShelterLevel + 1;
 	const segments = Array.from({ length: MAX_SHELTER_LEVEL }, (_, index) => {
 		const start = index * 72 + 4;
 		const end = (index + 1) * 72 - 4;
-		const filled = index < shelterLevel;
+		const filled = index < currentShelterLevel;
 		return (
 			<path
 				key={index}
@@ -385,8 +387,8 @@ function ShelterSelector({ shelterLevel, onChange }) {
 				type="button"
 				onClick={() => onChange(nextLevel)}
 				className="group relative h-20 w-20 shrink-0 rounded-full bg-black shadow-[0_0_24px_rgba(34,211,238,0.2)] ring-1 ring-cyan-200/20 transition hover:ring-cyan-100/70 focus:outline-none focus:ring-2 focus:ring-cyan-100"
-				aria-label={`Shelter License level ${shelterLevel}. Click to set level ${nextLevel}.`}
-				title={`Shelter License Lv ${shelterLevel}`}
+				aria-label={`Shelter License level ${currentShelterLevel}. Click to set level ${nextLevel}.`}
+				title={`Shelter License Lv ${currentShelterLevel}`}
 			>
 				<svg viewBox="0 0 100 100" className="h-full w-full" aria-hidden="true">
 					<circle cx="50" cy="50" r="36" fill="#020807" stroke="#050b0d" strokeWidth="4" />
@@ -398,8 +400,8 @@ function ShelterSelector({ shelterLevel, onChange }) {
 			</button>
 			<div className="min-w-0">
 				<div className="text-[10px] font-black uppercase tracking-[0.22em] text-cyan-100">Shelter</div>
-				<div className="mt-1 text-3xl font-black tabular-nums text-slate-50">Lv {shelterLevel}</div>
-				<div className="mt-1 text-[10px] uppercase tracking-[0.18em] text-slate-500">cap {shelterLevel === MAX_SHELTER_LEVEL ? "max" : BASE_SHELTER_CAPS[shelterLevel]}</div>
+				<div className="mt-1 text-3xl font-black tabular-nums text-slate-50">Lv {currentShelterLevel}</div>
+				<div className="mt-1 text-[10px] uppercase tracking-[0.18em] text-slate-500">cap {currentShelterLevel === MAX_SHELTER_LEVEL ? "max" : BASE_SHELTER_CAPS[currentShelterLevel]}</div>
 			</div>
 		</div>
 	);
@@ -554,7 +556,7 @@ function Section({ title, subtitle, itemList, levels, shelterLevel, setLevel, de
 export default function PragmataUnitPrinterCalculator() {
 	const defaultLevels = useMemo(() => Object.fromEntries(allUpgradeItems.map((item) => [getItemKey(item), 0])), []);
 	const [levels, setLevels] = useState(defaultLevels);
-	const [shelterLevel, setShelterLevel] = useState(0);
+	const [shelterLevel, setShelterLevel] = useState(MIN_SHELTER_LEVEL);
 	const [activeCollectionKey, setActiveCollectionKey] = useState("weapon");
 	const [activeType, setActiveType] = useState("All");
 
