@@ -18,10 +18,10 @@
       "shelterLevels": [
         1,
         3,
-        5,
-        6,
-        7,
-        8
+        4,
+        4,
+        4,
+        4
       ],
       "imagePath": "images/ability/Auto-Hacking.webp",
       "levels": [
@@ -61,11 +61,11 @@
       "unlockShelterLevel": 0,
       "shelterLevels": [
         1,
-        3,
-        5,
-        6,
-        7,
-        8
+        1,
+        1,
+        1,
+        1,
+        1
       ],
       "imagePath": "images/ability/Bot Scan.webp",
       "levels": [
@@ -88,10 +88,10 @@
       "shelterLevels": [
         1,
         3,
-        5,
-        6,
-        7,
-        8
+        4,
+        4,
+        4,
+        4
       ],
       "imagePath": "images/ability/Critical Shot.webp",
       "levels": [
@@ -131,11 +131,11 @@
       "unlockShelterLevel": 0,
       "shelterLevels": [
         1,
-        3,
-        5,
-        6,
-        7,
-        8
+        1,
+        1,
+        1,
+        1,
+        1
       ],
       "imagePath": "images/ability/EC Thrusters.webp",
       "levels": [
@@ -157,11 +157,11 @@
       "unlockShelterLevel": 0,
       "shelterLevels": [
         1,
-        3,
-        5,
-        6,
-        7,
-        8
+        1,
+        1,
+        1,
+        1,
+        1
       ],
       "imagePath": "images/ability/Fast Moves.webp",
       "levels": [
@@ -183,11 +183,11 @@
       "unlockShelterLevel": 0,
       "shelterLevels": [
         1,
-        3,
-        5,
-        6,
-        7,
-        8
+        1,
+        1,
+        1,
+        1,
+        1
       ],
       "imagePath": "images/ability/Object Scan.webp",
       "levels": [

@@ -18,10 +18,10 @@
       "shelterLevels": [
         1,
         3,
-        5,
-        6,
-        7,
-        8
+        4,
+        4,
+        4,
+        4
       ],
       "imagePath": "images/attachment/Hacking Gauge.webp",
       "levels": [
@@ -65,8 +65,8 @@
         3,
         5,
         6,
-        7,
-        8
+        6,
+        6
       ],
       "imagePath": "images/attachment/Mod Slot.webp",
       "levels": [
@@ -120,10 +120,10 @@
       "shelterLevels": [
         1,
         3,
-        5,
-        6,
-        7,
-        8
+        3,
+        3,
+        3,
+        3
       ],
       "imagePath": "images/attachment/Node Slot.webp",
       "levels": [
@@ -152,6 +152,12 @@
     {
       "id": "overdrive-protocol",
       "name": "Overdrive Protocol",
+      "renames": [
+        {
+          "level": 5,
+          "name": "Deletion Protocol"
+        }
+      ],
       "category": "Attachment",
       "type": "Attachment",
       "phase": "main",
@@ -160,9 +166,9 @@
         1,
         3,
         5,
-        6,
-        7,
-        8
+        5,
+        5,
+        5
       ],
       "imagePath": "images/attachment/Overdrive Protocol.webp",
       "levels": [
@@ -280,7 +286,7 @@
         5,
         6,
         7,
-        8
+        7
       ],
       "imagePath": "images/attachment/Thrusters.webp",
       "levels": [

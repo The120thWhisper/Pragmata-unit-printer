@@ -51,30 +51,32 @@ export function ShelterSelector({ shelterLevel, onChange }) {
 				<svg viewBox="0 0 100 100" className="h-full w-full" aria-hidden="true">
 					<circle cx="50" cy="50" r="36" fill="#020807" stroke="#050b0d" strokeWidth="4" />
 					{segments}
-					<path
-						d="M28 37 C31 25 45 25 48 38"
-						fill="none"
-						stroke="#c9fff4"
-						strokeWidth="8"
-						strokeLinecap="round"
-						className="drop-shadow-[0_0_5px_rgba(167,255,246,0.9)]"
-					/>
-					<path
-						d="M58 38 C61 26 75 26 78 39"
-						fill="none"
-						stroke="#c9fff4"
-						strokeWidth="8"
-						strokeLinecap="round"
-						className="drop-shadow-[0_0_5px_rgba(167,255,246,0.9)]"
-					/>
-					<path
-						d="M31 62 C41 73 61 76 75 62"
-						fill="none"
-						stroke="#c9fff4"
-						strokeWidth="9"
-						strokeLinecap="round"
-						className="drop-shadow-[0_0_5px_rgba(167,255,246,0.9)]"
-					/>
+					<g transform="translate(-3 0)">
+						<path
+							d="M28 37 C31 25 45 25 48 38"
+							fill="none"
+							stroke="#c9fff4"
+							strokeWidth="8"
+							strokeLinecap="round"
+							className="drop-shadow-[0_0_5px_rgba(167,255,246,0.9)]"
+						/>
+						<path
+							d="M58 38 C61 26 75 26 78 39"
+							fill="none"
+							stroke="#c9fff4"
+							strokeWidth="8"
+							strokeLinecap="round"
+							className="drop-shadow-[0_0_5px_rgba(167,255,246,0.9)]"
+						/>
+						<path
+							d="M31 62 C41 73 61 76 75 62"
+							fill="none"
+							stroke="#c9fff4"
+							strokeWidth="9"
+							strokeLinecap="round"
+							className="drop-shadow-[0_0_5px_rgba(167,255,246,0.9)]"
+						/>
+					</g>
 				</svg>
 			</button>
 			<div className="min-w-0">

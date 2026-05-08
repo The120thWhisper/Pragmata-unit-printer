@@ -24,42 +24,49 @@
         7,
         8
       ],
-      "imagePath": "images/weapon/Shockwave Gun.png",
+      "imagePath": "images/weapon/Shockwave Gun.webp",
       "levels": [
         {
           "level": 1,
           "lim": 100,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 350,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑"
         },
         {
           "level": 3,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Rate of Fire ↑"
         },
         {
           "level": 4,
           "lim": 1300,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Ammo Capacity ↑"
         },
         {
           "level": 5,
           "lim": 1600,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑↑"
         },
         {
           "level": 6,
           "lim": 2000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Rate of Fire ↑↑"
         },
         {
           "level": 7,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Ammo Capacity ↑↑"
         },
         {
           "level": 8,
@@ -83,7 +90,7 @@
         7,
         8
       ],
-      "imagePath": "images/weapon/Charge Piercer.png",
+      "imagePath": "images/weapon/Charge Piercer.webp",
       "levels": [
         {
           "level": 1,
@@ -142,7 +149,7 @@
         7,
         8
       ],
-      "imagePath": "images/weapon/Photon Laser.png",
+      "imagePath": "images/weapon/Photon Laser.webp",
       "levels": [
         {
           "level": 1,
@@ -201,7 +208,7 @@
         7,
         8
       ],
-      "imagePath": "images/weapon/Homing Missiles.png",
+      "imagePath": "images/weapon/Homing Missiles.webp",
       "levels": [
         {
           "level": 1,
@@ -260,8 +267,7 @@
         0,
         8
       ],
-      "unlockNote": "Complete-story unlock",
-      "imagePath": "images/weapon/Jackhammer.png",
+      "imagePath": "images/weapon/Jackhammer.webp",
       "levels": [
         {
           "level": 1,
@@ -303,7 +309,8 @@
           "lim": 10000,
           "lunum": 2
         }
-      ]
+      ],
+      "unlockNote": "Complete-story unlock"
     },
     {
       "id": "lim-cannon",
@@ -320,8 +327,7 @@
         0,
         8
       ],
-      "unlockNote": "Complete Unknown Signal missions unlock",
-      "imagePath": "images/weapon/Lim Cannon.png",
+      "imagePath": "images/weapon/Lim Cannon.webp",
       "levels": [
         {
           "level": 1,
@@ -363,7 +369,8 @@
           "lim": 10000,
           "lunum": 2
         }
-      ]
+      ],
+      "unlockNote": "Complete Unknown Signal missions unlock"
     },
     {
       "id": "stasis-net",
@@ -380,7 +387,7 @@
         7,
         8
       ],
-      "imagePath": "images/weapon/Stasis Net.png",
+      "imagePath": "images/weapon/Stasis Net.webp",
       "levels": [
         {
           "level": 1,
@@ -439,7 +446,7 @@
         7,
         8
       ],
-      "imagePath": "images/weapon/Riot Blaster.png",
+      "imagePath": "images/weapon/Riot Blaster.webp",
       "levels": [
         {
           "level": 1,
@@ -498,12 +505,13 @@
         7,
         8
       ],
-      "imagePath": "images/weapon/Sticky Bombs.png",
+      "imagePath": "images/weapon/Sticky Bombs.webp",
       "levels": [
         {
           "level": 1,
           "lim": 100,
-          "lunum": 0
+          "lunum": 0,
+          "note": "vis"
         },
         {
           "level": 2,
@@ -557,8 +565,7 @@
         7,
         8
       ],
-      "unlockNote": "Level 1 unlocks from Cabin Specialist Board",
-      "imagePath": "images/weapon/Code Generator.png",
+      "imagePath": "images/weapon/Code Generator.webp",
       "levels": [
         {
           "level": 1,
@@ -601,7 +608,8 @@
           "lim": 3500,
           "lunum": 1
         }
-      ]
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Specialist Board"
     },
     {
       "id": "hacking-mines",
@@ -618,8 +626,7 @@
         7,
         8
       ],
-      "unlockNote": "Level 1 unlocks from Cabin Director Board",
-      "imagePath": "images/weapon/Hacking Mines.png",
+      "imagePath": "images/weapon/Hacking Mines.webp",
       "levels": [
         {
           "level": 1,
@@ -662,12 +669,12 @@
           "lim": 3000,
           "lunum": 1
         }
-      ]
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Director Board"
     },
     {
       "id": "decoy-generator",
       "name": "Decoy Gen.",
-      "fullName": "Decoy Generator",
       "category": "Weapon",
       "type": "Defensive",
       "phase": "main",
@@ -680,7 +687,7 @@
         3,
         3
       ],
-      "imagePath": "images/weapon/Decoy Generator.png",
+      "imagePath": "images/weapon/Decoy Generator.webp",
       "levels": [
         {
           "level": 1,
@@ -697,7 +704,8 @@
           "lim": 1500,
           "lunum": 1
         }
-      ]
+      ],
+      "fullName": "Decoy Generator"
     },
     {
       "id": "impact-barrier",
@@ -714,7 +722,7 @@
         3,
         3
       ],
-      "imagePath": "images/weapon/Impact Barrier.png",
+      "imagePath": "images/weapon/Impact Barrier.webp",
       "levels": [
         {
           "level": 1,
@@ -748,8 +756,7 @@
         3,
         3
       ],
-      "unlockNote": "Level 1 unlocks from Cabin Associate Board",
-      "imagePath": "images/weapon/Drone Hive.png",
+      "imagePath": "images/weapon/Drone Hive.webp",
       "levels": [
         {
           "level": 1,
@@ -767,7 +774,8 @@
           "lim": 1500,
           "lunum": 1
         }
-      ]
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Associate Board"
     }
   ]
 }

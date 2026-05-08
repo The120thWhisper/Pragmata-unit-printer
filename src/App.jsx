@@ -141,8 +141,9 @@ export default function PragmataUnitPrinterCalculator() {
 							</h1>
 							<p className="mt-2 max-w-3xl text-sm text-slate-300 sm:text-base">
 								Click the slanted level bars to set the current level. Empty means unbought, white
-								goes up to the current level, red marks the next upgrade, black marks Shelter-locked
-								upgrades, and orange means upgrades are complete for the selected Shelter License.
+								goes up to the current level, red marks the next upgrade, thin outlines mark
+								unbought or Shelter-locked upgrades, and orange means upgrades are complete for
+								the selected Shelter License.
 							</p>
 							<p className="mt-2 max-w-3xl text-sm text-slate-300 sm:text-base">
 								NOTE: Numbers sourced online, but not confirmed independently (yet). Values may be

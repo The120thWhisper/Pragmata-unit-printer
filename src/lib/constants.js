@@ -86,9 +86,9 @@ export const COLLECTION_META = {
 
 export const ORANGE_COMPLETE = "bg-gradient-to-r from-yellow-300 to-orange-500";
 export const OWNED_BAR = "bg-slate-100";
-export const EMPTY_BAR = "bg-slate-400/40";
+export const EMPTY_BAR = "bg-transparent";
 export const NEXT_BAR = "bg-red-600";
-export const LOCKED_BAR = "bg-slate-950";
+export const LOCKED_BAR = "bg-transparent";
 
 export const MIN_SHELTER_LEVEL = 1;
 export const MAX_SHELTER_LEVEL = 5;

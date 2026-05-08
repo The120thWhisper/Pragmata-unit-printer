@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { getRemainingForWeapon, getRemainingForWeapons } from "./calculations";
+import {
+	getDisplayName,
+	getRemainingForWeapon,
+	getRemainingForWeapons,
+	getShelterMaxLevel,
+} from "./calculations";
 import { weapons } from "./upgradeCollections";
 
 const byName = Object.fromEntries(weapons.map((weapon) => [weapon.name, weapon]));
@@ -38,6 +43,22 @@ describe("getRemainingForWeapon", () => {
 	});
 });
 
+describe("getShelterMaxLevel", () => {
+	it("does not inflate an item's max beyond its configured upgrade levels", () => {
+		const item = {
+			name: "Three Level Attachment",
+			shelterLevels: [1, 3, 5, 6, 7, 8],
+			levels: [
+				{ level: 1, lim: 0, lunum: 0 },
+				{ level: 2, lim: 100, lunum: 0 },
+				{ level: 3, lim: 200, lunum: 0 },
+			],
+		};
+
+		expect(getShelterMaxLevel(item, 5)).toBe(3);
+	});
+});
+
 describe("getRemainingForWeapons", () => {
 	it("totals Attack main-game weapons (excludes post-game)", () => {
 		const attackMain = weapons.filter(
@@ -51,5 +72,21 @@ describe("getRemainingForWeapons", () => {
 			(weapon) => weapon.type === "Defensive" && weapon.phase === "main",
 		);
 		expect(getRemainingForWeapons(defensiveMain, {})).toEqual({ lim: 7800, lunum: 3 });
+	});
+});
+
+describe("getDisplayName", () => {
+	const item = {
+		name: "Overdrive Protocol",
+		renames: [{ level: 5, name: "Deletion Protocol" }],
+	};
+
+	it("uses the base item name before the rename level", () => {
+		expect(getDisplayName(item, 4)).toBe("Overdrive Protocol");
+	});
+
+	it("uses the upgrade-based rename at and after its level", () => {
+		expect(getDisplayName(item, 5)).toBe("Deletion Protocol");
+		expect(getDisplayName(item, 8)).toBe("Deletion Protocol");
 	});
 });

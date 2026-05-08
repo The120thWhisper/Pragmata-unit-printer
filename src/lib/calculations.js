@@ -14,6 +14,25 @@ export function getItemKey(item) {
 	return item.id ?? item.name;
 }
 
+export function getDisplayName(item, currentLevel = 0) {
+	const baseName = item.name;
+	const level = Math.max(0, Math.floor(Number(currentLevel) || 0));
+	const renames = Array.isArray(item.renames) ? item.renames : [];
+	return renames.reduce((selected, rename) => {
+		const renameLevel = Number(rename.level);
+		const renameName = String(rename.name ?? "").trim();
+		if (
+			!renameName ||
+			!Number.isFinite(renameLevel) ||
+			renameLevel > level ||
+			renameLevel < selected.level
+		) {
+			return selected;
+		}
+		return { level: renameLevel, name: renameName };
+	}, { level: Number.NEGATIVE_INFINITY, name: baseName }).name;
+}
+
 export function formatNumber(value) {
 	return Number(value).toLocaleString();
 }
@@ -61,7 +80,9 @@ export function mapUpgradeItems(data, collectionKey) {
 }
 
 export function getShelterMaxLevel(item, shelterLevel = MAX_SHELTER_LEVEL) {
-	return item.shelterLevels?.[shelterLevel] ?? getItemMaxLevel(item);
+	const itemMaxLevel = getItemMaxLevel(item);
+	const shelterMaxLevel = item.shelterLevels?.[shelterLevel] ?? itemMaxLevel;
+	return Math.min(itemMaxLevel, shelterMaxLevel);
 }
 
 export function getRemainingForWeapon(weapon, currentLevel, shelterLevel = MAX_SHELTER_LEVEL) {
