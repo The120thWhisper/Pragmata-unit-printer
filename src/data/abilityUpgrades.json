@@ -29,25 +29,25 @@
           "level": 1,
           "lim": 0,
           "lunum": 1,
-          "effect": "Ability Unlocked"
+          "effect": "Ability Unlocked: Auto-hacking"
         },
         {
           "level": 2,
           "lim": 300,
           "lunum": 0,
-          "effect": "Increased Hacking Speed"
+          "effect": "Auto-Hacking Speed ↑"
         },
         {
           "level": 3,
           "lim": 600,
           "lunum": 0,
-          "effect": "Increased Hacking Speed"
+          "effect": "Auto-Hacking Speed ↑ ↑"
         },
         {
           "level": 4,
           "lim": 1000,
           "lunum": 0,
-          "effect": "Increased Hacking Speed"
+          "effect": "Auto-Hacking Speed ↑ ↑ ↑"
         }
       ],
       "fullName": "Auto-Hacking"
@@ -73,106 +73,10 @@
           "level": 1,
           "lim": 150,
           "lunum": 0,
-          "effect": "Ability Unlocked"
+          "effect": "Ability Unlocked: Bot Scan"
         }
       ],
       "fullName": "Bot Scan"
-    },
-    {
-      "id": "critical-shot",
-      "name": "Critical Shot",
-      "category": "Ability",
-      "type": "Ability",
-      "phase": "main",
-      "unlockShelterLevel": 0,
-      "shelterLevels": [
-        1,
-        3,
-        4,
-        4,
-        4,
-        4
-      ],
-      "imagePath": "images/ability/Critical Shot.webp",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 0,
-          "lunum": 1,
-          "effect": "Ability Unlocked"
-        },
-        {
-          "level": 2,
-          "lim": 500,
-          "lunum": 0,
-          "effect": "Increased Node Spawn Rate"
-        },
-        {
-          "level": 3,
-          "lim": 800,
-          "lunum": 0,
-          "effect": "Increased Node Spawn Rate"
-        },
-        {
-          "level": 4,
-          "lim": 1500,
-          "lunum": 0,
-          "effect": "Increased Node Spawn Rate"
-        }
-      ],
-      "fullName": "Critical Shot"
-    },
-    {
-      "id": "ec-thrusters",
-      "name": "EC Thrusters",
-      "category": "Ability",
-      "type": "Ability",
-      "phase": "main",
-      "unlockShelterLevel": 0,
-      "shelterLevels": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "imagePath": "images/ability/EC Thrusters.webp",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 0,
-          "lunum": 0,
-          "effect": "Ability Unlocked"
-        }
-      ],
-      "fullName": "EC Thrusters"
-    },
-    {
-      "id": "fast-moves",
-      "name": "Fast Moves",
-      "category": "Ability",
-      "type": "Ability",
-      "phase": "main",
-      "unlockShelterLevel": 0,
-      "shelterLevels": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "imagePath": "images/ability/Fast Moves.webp",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 0,
-          "lunum": 1,
-          "effect": "Ability Unlocked"
-        }
-      ],
-      "fullName": "Fast Moves"
     },
     {
       "id": "object-scan",
@@ -195,10 +99,106 @@
           "level": 1,
           "lim": 150,
           "lunum": 0,
-          "effect": "Ability Unlocked"
+          "effect": "Ability Unlocked: Object Scan"
         }
       ],
       "fullName": "Object Scan"
+    },
+    {
+      "id": "critical-shot",
+      "name": "Critical Shot",
+      "category": "Ability",
+      "type": "Ability",
+      "phase": "main",
+      "unlockShelterLevel": 0,
+      "shelterLevels": [
+        1,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "imagePath": "images/ability/Critical Shot.webp",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 1,
+          "effect": "Ability Unlocked: Critical Shot"
+        },
+        {
+          "level": 2,
+          "lim": 500,
+          "lunum": 0,
+          "effect": "Node Spawn Rate ↑"
+        },
+        {
+          "level": 3,
+          "lim": 800,
+          "lunum": 0,
+          "effect": "Node Spawn Rate ↑ ↑"
+        },
+        {
+          "level": 4,
+          "lim": 1500,
+          "lunum": 0,
+          "effect": "Node Spawn Rate ↑ ↑ ↑"
+        }
+      ],
+      "fullName": "Critical Shot"
+    },
+    {
+      "id": "fast-moves",
+      "name": "Fast Moves",
+      "category": "Ability",
+      "type": "Ability",
+      "phase": "main",
+      "unlockShelterLevel": 0,
+      "shelterLevels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "imagePath": "images/ability/Fast Moves.webp",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 1,
+          "effect": "Ability Unlocked: Fast Moves"
+        }
+      ],
+      "fullName": "Fast Moves"
+    },
+    {
+      "id": "ec-thrusters",
+      "name": "EC Thrusters",
+      "category": "Ability",
+      "type": "Ability",
+      "phase": "main",
+      "unlockShelterLevel": 0,
+      "shelterLevels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "imagePath": "images/ability/EC Thrusters.webp",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "effect": "Ability Unlocked: EC Thrusters"
+        }
+      ],
+      "fullName": "EC Thrusters"
     }
   ]
 }

@@ -43,7 +43,7 @@ export function LevelDetails({ item, currentLevel, shelterLevel }) {
 	}, [item.id, scrollTargetLevel]);
 
 	return (
-		<div ref={scrollerRef} className="mt-2 max-h-28 space-y-1 overflow-auto overflow-x-hidden border-t border-slate-800/80 px-2 pt-2 text-[10px] leading-tight text-slate-400">
+		<div ref={scrollerRef} className="h-28 space-y-1 overflow-y-auto overflow-x-hidden border-t border-slate-800/80 px-2 pt-2 text-[10px] leading-tight text-slate-400">
 			{item.levels.map((entry) => {
 				const locked = entry.level > shelterMaxLevel;
 				const filled = entry.level <= currentLevel;

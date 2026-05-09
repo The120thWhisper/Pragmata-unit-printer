@@ -43,83 +43,6 @@
   ],
   "items": [
     {
-      "id": "chain",
-      "name": "Chain",
-      "category": "Hacking",
-      "type": "Node",
-      "phase": "main",
-      "unlockShelterLevel": 4,
-      "shelterLevels": [
-        0,
-        0,
-        0,
-        0,
-        3,
-        3
-      ],
-      "imagePath": "images/hacking/Chain.png",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 0,
-          "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Cabin Director Board unlock"
-        },
-        {
-          "level": 2,
-          "lim": 900,
-          "lunum": 0,
-          "effect": "Node Uses Increased"
-        },
-        {
-          "level": 3,
-          "lim": 1500,
-          "lunum": 0,
-          "effect": "Node Uses Increased"
-        }
-      ],
-      "unlockNote": "Level 1 unlocks from Cabin Director Board"
-    },
-    {
-      "id": "confuse",
-      "name": "Confuse",
-      "category": "Hacking",
-      "type": "Node",
-      "phase": "main",
-      "unlockShelterLevel": 2,
-      "shelterLevels": [
-        0,
-        0,
-        3,
-        3,
-        3,
-        3
-      ],
-      "imagePath": "images/hacking/Confuse.png",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 400,
-          "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Unlocks the hacking node."
-        },
-        {
-          "level": 2,
-          "lim": 900,
-          "lunum": 0,
-          "effect": "Increased Friendly Fire Damage"
-        },
-        {
-          "level": 3,
-          "lim": 1500,
-          "lunum": 0,
-          "effect": "Increased Friendly Fire Damage"
-        }
-      ]
-    },
-    {
       "id": "decode",
       "name": "Decode",
       "category": "Hacking",
@@ -140,178 +63,19 @@
           "level": 1,
           "lim": 200,
           "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Unlocks the hacking node."
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 700,
           "lunum": 0,
-          "effect": "Increased Damage"
+          "effect": "Damage ↑"
         },
         {
           "level": 3,
           "lim": 900,
           "lunum": 0,
-          "effect": "Increased Damage"
-        }
-      ]
-    },
-    {
-      "id": "drain",
-      "name": "Drain",
-      "category": "Hacking",
-      "type": "Node",
-      "phase": "main",
-      "unlockShelterLevel": 3,
-      "shelterLevels": [
-        0,
-        0,
-        0,
-        3,
-        3,
-        3
-      ],
-      "imagePath": "images/hacking/Drain.png",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 0,
-          "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Cabin Specialist Board unlock"
-        },
-        {
-          "level": 2,
-          "lim": 900,
-          "lunum": 0,
-          "effect": "HP Recovery increased"
-        },
-        {
-          "level": 3,
-          "lim": 1500,
-          "lunum": 0,
-          "effect": "HP Recovery increased"
-        }
-      ],
-      "unlockNote": "Level 1 unlocks from Cabin Specialist Board"
-    },
-    {
-      "id": "expose",
-      "name": "Expose",
-      "category": "Hacking",
-      "type": "Node",
-      "phase": "main",
-      "unlockShelterLevel": 2,
-      "shelterLevels": [
-        0,
-        0,
-        3,
-        3,
-        3,
-        3
-      ],
-      "imagePath": "images/hacking/Expose.png",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 0,
-          "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Cabin Associate Board unlock"
-        },
-        {
-          "level": 2,
-          "lim": 900,
-          "lunum": 0,
-          "effect": "Increased Duration"
-        },
-        {
-          "level": 3,
-          "lim": 1500,
-          "lunum": 0,
-          "effect": "Increased Duration"
-        }
-      ],
-      "unlockNote": "Level 1 unlocks from Cabin Associate Board"
-    },
-    {
-      "id": "freeze",
-      "name": "Freeze",
-      "category": "Hacking",
-      "type": "Node",
-      "phase": "main",
-      "unlockShelterLevel": 1,
-      "shelterLevels": [
-        0,
-        3,
-        3,
-        3,
-        3,
-        3
-      ],
-      "imagePath": "images/hacking/Freeze.png",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 0,
-          "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Cabin Training Board unlock"
-        },
-        {
-          "level": 2,
-          "lim": 900,
-          "lunum": 0,
-          "effect": "Increased Duration"
-        },
-        {
-          "level": 3,
-          "lim": 1500,
-          "lunum": 0,
-          "effect": "Increased Duration"
-        }
-      ],
-      "unlockNote": "Level 1 unlocks from Cabin Training Board"
-    },
-    {
-      "id": "heat",
-      "name": "Heat",
-      "category": "Hacking",
-      "type": "Node",
-      "unlockShelterLevel": 3,
-      "shelterLevels": [
-        0,
-        0,
-        0,
-        3,
-        3,
-        3
-      ],
-      "imagePath": "images/hacking/Heat.png",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 400,
-          "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Unlocks the hacking node."
-        },
-        {
-          "level": 2,
-          "lim": null,
-          "lunum": null,
-          "costKnown": false,
-          "effect": "Heat Gauge Build Up increased",
-          "note": "Cost is blank in the available source."
-        },
-        {
-          "level": 3,
-          "lim": null,
-          "lunum": null,
-          "costKnown": false,
-          "effect": "Heat Gauge Build Up increased",
-          "note": "Cost is blank in the available source."
+          "effect": "Damage ↑ ↑"
         }
       ]
     },
@@ -336,22 +100,249 @@
           "level": 1,
           "lim": 300,
           "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal",
-          "note": "Unlocks the hacking node."
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 900,
           "lunum": 0,
-          "effect": "Increased Max Targets"
+          "effect": "Max. Targets ↑"
         },
         {
           "level": 3,
           "lim": 1500,
           "lunum": 0,
-          "effect": "Increased Max Targets"
+          "effect": "Max. Targets ↑ ↑"
         }
       ]
+    },
+    {
+      "id": "freeze",
+      "name": "Freeze",
+      "category": "Hacking",
+      "type": "Node",
+      "phase": "main",
+      "unlockShelterLevel": 1,
+      "shelterLevels": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "imagePath": "images/hacking/Freeze.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0,
+          "effect": "Enemy Stun Time ↑"
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 0,
+          "effect": "Enemy Stun Time ↑ ↑"
+        }
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Training Board"
+    },
+    {
+      "id": "confuse",
+      "name": "Confuse",
+      "category": "Hacking",
+      "type": "Node",
+      "phase": "main",
+      "unlockShelterLevel": 2,
+      "shelterLevels": [
+        0,
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      "imagePath": "images/hacking/Confuse.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 400,
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0,
+          "effect": "Friendly Fire Damage ↑"
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 0,
+          "effect": "Friendly Fire Damage ↑ ↑"
+        }
+      ]
+    },
+    {
+      "id": "expose",
+      "name": "Expose",
+      "category": "Hacking",
+      "type": "Node",
+      "phase": "main",
+      "unlockShelterLevel": 2,
+      "shelterLevels": [
+        0,
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      "imagePath": "images/hacking/Expose.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0,
+          "effect": "Critical Damage ↑"
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 0,
+          "effect": "Critical Damage ↑ ↑"
+        }
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Associate Board"
+    },
+    {
+      "id": "heat",
+      "name": "Heat",
+      "category": "Hacking",
+      "type": "Node",
+      "phase": "main",
+      "unlockShelterLevel": 3,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "imagePath": "images/hacking/Heat.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 400,
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
+        },
+        {
+          "level": 2,
+          "lim": null,
+          "lunum": null,
+          "costKnown": false,
+          "effect": "Heat Gauge Buildup ↑"
+        },
+        {
+          "level": 3,
+          "lim": null,
+          "lunum": null,
+          "costKnown": false,
+          "effect": "Heat Gauge Buildup ↑ ↑"
+        }
+      ]
+    },
+    {
+      "id": "drain",
+      "name": "Drain",
+      "category": "Hacking",
+      "type": "Node",
+      "phase": "main",
+      "unlockShelterLevel": 3,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "imagePath": "images/hacking/Drain.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0,
+          "effect": "HP Recovery ↑"
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 0,
+          "effect": "HP Recovery ↑ ↑"
+        }
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Specialist Board"
+    },
+    {
+      "id": "chain",
+      "name": "Chain",
+      "category": "Hacking",
+      "type": "Node",
+      "phase": "main",
+      "unlockShelterLevel": 4,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        3
+      ],
+      "imagePath": "images/hacking/Chain.png",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 0,
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
+        },
+        {
+          "level": 2,
+          "lim": 900,
+          "lunum": 0,
+          "effect": "Node Uses ↑"
+        },
+        {
+          "level": 3,
+          "lim": 1500,
+          "lunum": 0,
+          "effect": "Node Uses ↑ ↑"
+        }
+      ],
+      "unlockNote": "Level 1 unlocks from Cabin Director Board"
     },
     {
       "id": "offense-mode",
@@ -374,7 +365,7 @@
           "level": 1,
           "lim": 400,
           "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal"
+          "effect": "Can be equipped at the Tram Terminal"
         }
       ],
       "fullName": "Offense Mode"
@@ -400,32 +391,7 @@
           "level": 1,
           "lim": 800,
           "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal"
-        }
-      ]
-    },
-    {
-      "id": "combust-mode",
-      "name": "Combust Mode",
-      "category": "Hacking",
-      "type": "Mode",
-      "phase": "main",
-      "unlockShelterLevel": 3,
-      "shelterLevels": [
-        0,
-        0,
-        0,
-        1,
-        1,
-        1
-      ],
-      "imagePath": "images/hacking/Combust Mode.webp",
-      "levels": [
-        {
-          "level": 1,
-          "lim": 500,
-          "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal"
+          "effect": "Can be equipped at the Tram Terminal"
         }
       ]
     },
@@ -450,7 +416,32 @@
           "level": 1,
           "lim": 800,
           "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal"
+          "effect": "Can be equipped at the Tram Terminal"
+        }
+      ]
+    },
+    {
+      "id": "combust-mode",
+      "name": "Combust Mode",
+      "category": "Hacking",
+      "type": "Mode",
+      "phase": "main",
+      "unlockShelterLevel": 3,
+      "shelterLevels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "imagePath": "images/hacking/Combust Mode.webp",
+      "levels": [
+        {
+          "level": 1,
+          "lim": 500,
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         }
       ]
     },
@@ -475,7 +466,7 @@
           "level": 1,
           "lim": 800,
           "lunum": 0,
-          "effect": "Can be equipped from Tram Terminal"
+          "effect": "Can be equipped at the Tram Terminal"
         }
       ]
     }

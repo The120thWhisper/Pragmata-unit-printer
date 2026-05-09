@@ -54,24 +54,25 @@
           "level": 5,
           "lim": 1600,
           "lunum": 1,
-          "effect": "Damage ↑↑"
+          "effect": "Damage ↑ ↑"
         },
         {
           "level": 6,
           "lim": 2000,
           "lunum": 1,
-          "effect": "Rate of Fire ↑↑"
+          "effect": "Rate of Fire ↑ ↑"
         },
         {
           "level": 7,
           "lim": 3000,
           "lunum": 1,
-          "effect": "Ammo Capacity ↑↑"
+          "effect": "Ammo Capacity ↑ ↑"
         },
         {
           "level": 8,
           "lim": 4000,
-          "lunum": 2
+          "lunum": 2,
+          "effect": "Damage ↑ ↑ ↑ / Ammo Capacity ↑ ↑ ↑"
         }
       ]
     },
@@ -95,42 +96,50 @@
         {
           "level": 1,
           "lim": 100,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 500,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑"
         },
         {
           "level": 3,
           "lim": 1000,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑ / Charge Speed ↑"
         },
         {
           "level": 4,
           "lim": 1300,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Unlock Double Charge"
         },
         {
           "level": 5,
           "lim": 1600,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑ ↑ ↑ / Recoil ↓"
         },
         {
           "level": 6,
           "lim": 2000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑ ↑ ↑ ↑ / Charge Speed ↑ ↑"
         },
         {
           "level": 7,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Unlock Triple Charge"
         },
         {
           "level": 8,
           "lim": 4000,
-          "lunum": 2
+          "lunum": 2,
+          "effect": "Damage ↑ ↑ ↑ ↑ ↑ / Charge Speed ↑ ↑ ↑"
         }
       ]
     },
@@ -154,42 +163,50 @@
         {
           "level": 1,
           "lim": 100,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑"
         },
         {
           "level": 3,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Ammo Capacity ↑"
         },
         {
           "level": 4,
           "lim": 1100,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑ ↑ / Hit Interval ↓"
         },
         {
           "level": 5,
           "lim": 1500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑ ↑ ↑"
         },
         {
           "level": 6,
           "lim": 2000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Ammo Capacity ↑ ↑"
         },
         {
           "level": 7,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑ ↑ ↑ ↑ / Hit Interval ↓ ↓"
         },
         {
           "level": 8,
           "lim": 4000,
-          "lunum": 2
+          "lunum": 2,
+          "effect": "Damage ↑ ↑ ↑ ↑ ↑ / Ammo Capacity ↑ ↑ ↑"
         }
       ]
     },
@@ -213,42 +230,50 @@
         {
           "level": 1,
           "lim": 100,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑"
         },
         {
           "level": 3,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Charge Speed ↑"
         },
         {
           "level": 4,
           "lim": 1100,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Lock-On Targets ↑"
         },
         {
           "level": 5,
           "lim": 1500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑ ↑ / Heat Buildup ↑"
         },
         {
           "level": 6,
           "lim": 2000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Charge Speed ↑ ↑"
         },
         {
           "level": 7,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Lock-On Targets ↑ ↑"
         },
         {
           "level": 8,
           "lim": 4000,
-          "lunum": 2
+          "lunum": 2,
+          "effect": "Damage ↑ ↑ ↑ / Heat Buildup ↑ ↑"
         }
       ]
     },
@@ -272,42 +297,50 @@
         {
           "level": 1,
           "lim": 500,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Stagger ↑"
         },
         {
           "level": 3,
           "lim": 1500,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑"
         },
         {
           "level": 4,
           "lim": 2000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Follow-up Attack ↑"
         },
         {
           "level": 5,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Stagger ↑ ↑ / Ammo Capacity ↑"
         },
         {
           "level": 6,
           "lim": 5000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Damage ↑ ↑ ↑"
         },
         {
           "level": 7,
           "lim": 6000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Follow-Up Attack ↑ ↑ / Ammo Capacity ↑ ↑"
         },
         {
           "level": 8,
           "lim": 10000,
-          "lunum": 2
+          "lunum": 2,
+          "effect": "Damage ↑ ↑ ↑ ↑"
         }
       ],
       "unlockNote": "Complete-story unlock"
@@ -332,42 +365,50 @@
         {
           "level": 1,
           "lim": 500,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Recoil"
         },
         {
           "level": 3,
           "lim": 1500,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Stagger ↑"
         },
         {
           "level": 4,
           "lim": 2000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Unlock Double Charge"
         },
         {
           "level": 5,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Recoil"
         },
         {
           "level": 6,
           "lim": 5000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Stagger ↑ ↑"
         },
         {
           "level": 7,
           "lim": 6000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Unlock Triple Charge"
         },
         {
           "level": 8,
           "lim": 10000,
-          "lunum": 2
+          "lunum": 2,
+          "effect": "Recoil / Stagger ↑ ↑ ↑"
         }
       ],
       "unlockNote": "Complete Unknown Signal missions unlock"
@@ -392,42 +433,50 @@
         {
           "level": 1,
           "lim": 100,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 300,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Rate of Fire ↑"
         },
         {
           "level": 3,
           "lim": 700,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Ammo Capacity ↑"
         },
         {
           "level": 4,
           "lim": 1000,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Net Radius ↑"
         },
         {
           "level": 5,
           "lim": 1400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Rate of Fire ↑ ↑ / Max Active ↑"
         },
         {
           "level": 6,
           "lim": 1800,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Ammo Capacity ↑ ↑"
         },
         {
           "level": 7,
           "lim": 2500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Net Radius ↑ ↑ / Heat Buildup ↑"
         },
         {
           "level": 8,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Ammo Capacity ↑ ↑ ↑"
         }
       ]
     },
@@ -451,42 +500,50 @@
         {
           "level": 1,
           "lim": 200,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Enemy Down Time ↑"
         },
         {
           "level": 3,
           "lim": 800,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑ / Ammo Capacity ↑"
         },
         {
           "level": 4,
           "lim": 1000,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Blast Radius ↑"
         },
         {
           "level": 5,
           "lim": 1400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Enemy Down Time ↑ ↑"
         },
         {
           "level": 6,
           "lim": 1800,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Damage ↑ ↑ / Ammo Capacity ↑ ↑"
         },
         {
           "level": 7,
           "lim": 2500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Blast Radius ↑ ↑"
         },
         {
           "level": 8,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Enemy Down Time ↑ ↑ ↑ / Ammo Capacity ↑ ↑ ↑"
         }
       ]
     },
@@ -511,42 +568,50 @@
           "level": 1,
           "lim": 100,
           "lunum": 0,
-          "note": "vis"
+          "note": "vis",
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 300,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Rapid Fire ↑"
         },
         {
           "level": 3,
           "lim": 600,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Recoil"
         },
         {
           "level": 4,
           "lim": 800,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Ammo Capacity ↑"
         },
         {
           "level": 5,
           "lim": 1200,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Rapid Fire ↑ ↑"
         },
         {
           "level": 6,
           "lim": 1500,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Recoil / Ammo Capacity ↑ ↑"
         },
         {
           "level": 7,
           "lim": 2000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Hacking Matrix Shrink Time ↑"
         },
         {
           "level": 8,
           "lim": 2500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Blast Damage ↑ / Ammo Capacity ↑ ↑ ↑"
         }
       ]
     },
@@ -571,42 +636,49 @@
           "level": 1,
           "lim": 0,
           "lunum": 0,
-          "note": "Board unlock"
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Ammo Capacity ↑"
         },
         {
           "level": 3,
           "lim": 800,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Bullet Range ↑"
         },
         {
           "level": 4,
           "lim": 1200,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Additional Nodes ↑"
         },
         {
           "level": 5,
           "lim": 1500,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Error Node Disable ↑"
         },
         {
           "level": 6,
           "lim": 2000,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Blast Damage ↑ / Bullet Range ↑ ↑"
         },
         {
           "level": 7,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Additional Nodes ↑ ↑ / Error Node Disable ↑ ↑"
         },
         {
           "level": 8,
           "lim": 3500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Blast Damage ↑ ↑ / Ammo Capacity ↑ ↑"
         }
       ],
       "unlockNote": "Level 1 unlocks from Cabin Specialist Board"
@@ -632,42 +704,50 @@
           "level": 1,
           "lim": 0,
           "lunum": 0,
-          "note": "Board unlock"
+          "note": "Board unlock",
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Rate of Fire ↑"
         },
         {
           "level": 3,
           "lim": 800,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "OPEN Duration ↑"
         },
         {
           "level": 4,
           "lim": 1000,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Ammo Capacity ↑"
         },
         {
           "level": 5,
           "lim": 1400,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Rate of Fire ↑ ↑"
         },
         {
           "level": 6,
           "lim": 1800,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "OPEN Duration ↑ ↑ / Stagger ↑"
         },
         {
           "level": 7,
           "lim": 2500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Max Active ↑ / Ammo Capacity ↑ ↑"
         },
         {
           "level": 8,
           "lim": 3000,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "OPEN Duration ↑ ↑ ↑ / Active Duration ↑"
         }
       ],
       "unlockNote": "Level 1 unlocks from Cabin Director Board"
@@ -692,17 +772,20 @@
         {
           "level": 1,
           "lim": 300,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Duration ↑"
         },
         {
           "level": 3,
           "lim": 1500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Duration ↑ ↑"
         }
       ],
       "fullName": "Decoy Generator"
@@ -727,17 +810,20 @@
         {
           "level": 1,
           "lim": 300,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Duration ↑"
         },
         {
           "level": 3,
           "lim": 1500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Duration ↑ ↑ / Shield Strength ↑"
         }
       ]
     },
@@ -762,17 +848,20 @@
           "level": 1,
           "lim": 0,
           "lunum": 0,
-          "note": "Board unlock"
+          "note": "Board unlock",
+          "effect": "Can be equipped at the Tram Terminal"
         },
         {
           "level": 2,
           "lim": 900,
-          "lunum": 0
+          "lunum": 0,
+          "effect": "Drone Reserves ↑"
         },
         {
           "level": 3,
           "lim": 1500,
-          "lunum": 1
+          "lunum": 1,
+          "effect": "Drone Reserves ↑ ↑ / Max Active ↑"
         }
       ],
       "unlockNote": "Level 1 unlocks from Cabin Associate Board"

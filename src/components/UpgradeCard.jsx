@@ -65,6 +65,8 @@ export function UpgradeCard({ item, currentLevel, shelterLevel, onChange }) {
 			entry.level > currentLevel && entry.level <= shelterMaxLevel && hasUnknownCost(entry),
 	);
 	const colors = getTypeColors(item.type);
+	const imageNote = locked ? `Requires Shelter Lv ${item.unlockShelterLevel ?? "?"}` : "";
+	const unlockNote = item.unlockNote ?? "";
 
 	return (
 		<motion.article
@@ -135,18 +137,21 @@ export function UpgradeCard({ item, currentLevel, shelterLevel, onChange }) {
 							event.currentTarget.style.display = "none";
 						}}
 					/>
-					<span className="absolute bottom-1 right-2 text-[9px] uppercase tracking-widest text-slate-600">
-						{locked ? `Shelter Lv ${item.unlockShelterLevel ?? "?"}` : "click +1"}
-					</span>
 				</button>
 
-				<div className="mt-auto pt-3">
+				<div className="mt-2">
+					<p
+						className="mb-1 h-3.5 truncate text-right text-[9px] font-black uppercase leading-none tracking-widest text-slate-600"
+						title={imageNote}
+					>
+						{imageNote}
+					</p>
 					{locked ? (
-						<div className="border-y border-slate-700/80 bg-black/40 py-1 text-center text-lg font-black uppercase tracking-wider text-slate-500">
+						<div className="flex h-[66px] items-center justify-center border-y border-slate-700/80 bg-black/40 text-lg font-black uppercase tracking-wider text-slate-500">
 							Locked
 						</div>
 					) : (
-						<div className="space-y-1.5">
+						<div className="h-[66px] space-y-1.5">
 							<CostBar label={nextUpgrade ? `Next Lv. ${nextUpgrade.level}` : "Next"} tone="next">
 								{nextUpgrade ? (
 									nextUnknownCosts ? (
@@ -167,11 +172,12 @@ export function UpgradeCard({ item, currentLevel, shelterLevel, onChange }) {
 							</CostBar>
 						</div>
 					)}
-					{item.unlockNote && (
-						<p className="mt-2 line-clamp-2 text-[10px] leading-tight text-slate-400">
-							{item.unlockNote}
-						</p>
-					)}
+					<p
+						className="flex h-10 items-center text-[10px] leading-none text-slate-400"
+						title={unlockNote}
+					>
+						<span className="block min-w-0 translate-y-1.5 truncate">{unlockNote}</span>
+					</p>
 					<LevelDetails item={item} currentLevel={currentLevel} shelterLevel={shelterLevel} />
 				</div>
 			</div>
